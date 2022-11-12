@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.7.9 on win32)" generated="20220926 21:33:46.623" rpa="false">
+<suite id="s1" name="TEST" source="D:\liuyan\eclipse\workspace\TEST">
+<suite id="s1-s1" name="Testmy" source="D:\liuyan\eclipse\workspace\TEST\testmy.robot">
+<test id="s1-s1-t1" name="Some Test">
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>1</arg>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20220926 21:33:46.706" endtime="20220926 21:33:46.707"></status>
+</kw>
+<status status="PASS" starttime="20220926 21:33:46.705" endtime="20220926 21:33:46.707" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20220926 21:33:46.702" endtime="20220926 21:33:46.707"></status>
+</suite>
+<status status="PASS" starttime="20220926 21:33:46.686" endtime="20220926 21:33:46.708"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TEST">TEST</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Testmy">TEST.Testmy</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
